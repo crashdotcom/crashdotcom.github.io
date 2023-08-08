@@ -2,7 +2,7 @@ body{
   font-family:"Courier New";
   color:green;
   background-color:black;
-  width: 800px;
+  max-width: 800px;
   margin:auto;
   border-left: 10px solid green;
 }
