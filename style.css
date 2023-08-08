@@ -3,5 +3,6 @@ body{
   color:green;
   background-color:black;
   margin:auto;
-  border-left: 10px solid green;
+  max-width:800px;
+  border-left: 6px solid green;
 }
