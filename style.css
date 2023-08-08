@@ -10,8 +10,7 @@ body{
 }
 
 .rainbow{
-  background-image:linear-gradient(to right, red,orange,yellow,green,blue,violet);
-  color:transparent;
-  background-clip:transparent;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
   -webkit-background-clip: text;
+  color: transparent;
 }
