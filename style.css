@@ -12,7 +12,7 @@ body{
 .rainbow{
   
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); 
-  display:inline-block;
+  
   -webkit-background-clip: text;
   color: transparent;
   
