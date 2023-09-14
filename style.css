@@ -3,16 +3,61 @@ body{
   color:green;
   background-color:black;
   margin:auto;
-  max-width:800px;
+  max-width:50%;
   border-left: 6px solid green;
   border-right:6px solid green;
   padding:4px;
+  margin-top:10px;
 }
 
 .rainbow{
   background-image: linear-gradient(to left, violet, indigo, blue, lime, gold, orange, red); 
   background-clip: text;
   display:inline;
-  color:aqua;
+  color:black;
+  animation-name:rainbowText;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+}
+
+a{
+  color:green;
+  text-decoration: none;
+  border:2px green solid;
+  padding:2px;
+  text-align: center;
+
   
+}
+a:hover{
+  color:rgb(0, 165, 0);
+  cursor:url('pickaxe.png'),auto;
+}
+footer{
+  text-align: center;
+}
+img{
+  border:3px green solid;
+  border-radius: 5%;
+  margin:auto;
+  max-width: 90%;
+  height:auto;
+  display:block
+  
+}
+
+@keyframes rainbowText{
+  0%{color:red}
+  12%{color:orange}
+  24%{color:yellow}
+  36%{color:lime}
+  50%{color:aqua}
+  62%{color:blue}
+  74%{color:purple}
+  88%{color:fuchsia}
+  100%{color:red}
+}
+html{
+  cursor:url('sword.png'),auto;
+  cursor
 }
