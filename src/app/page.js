@@ -11,7 +11,7 @@ export default function Home() {
       <div className="items-center justify-items-center text-5xl dark:shadow-gray-800 pb-4">
           <h1 className={silkscreen.className}>hello world</h1>
         </div>
-        <div className="place-self-center max-w-3/5"> 
+        <div className="place-self-center max-w-3/5   "> 
         {/* grid grid-cols-2 max-w-3/5 place-self-center */}
           <div className="p-4">
           <p className={jetbrains.className}>

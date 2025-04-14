@@ -30,8 +30,22 @@ a:hover{
   color: var(--color-amber-400)
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
 body {
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(31,132,146,1) 100%);
   color: var(--foreground);
-  
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+
+#__next {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
