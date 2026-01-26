@@ -18,24 +18,24 @@ export default function Home() {
                     </p>
                     <br></br>
                     <p>
-                        Interests include: color representation, semiconductor design, accessibility & equity in tech, and interactive fiction.
+                        Interests includes: programming language design/language as a tool, copyright and AI, and interactive fiction.
                     </p>
                     <br></br>
                     <p>
                         Currently taking:
                         <ul>
-                            <li>EE 105: Microelectronic Devices & Circuits</li>
-                            <li>CS 184: Computer Graphics</li>
-                            <li>PHYSICS 7B: Heat, electricity, & magnetism</li>
-                            <li>PHILOS 3: The Nature of Mind</li>
+                             <li>CS 162: Operating Systems and System Programming</li>
+                             <li>CS 188: Introduction to Artificial Intelligence</li>
+                             <li>LEGALST 123: Data, Prediction, & Law</li>
+                             <li>PUBPOL 147: Progress? An Introduction to Technology and Public Policy</li>
                         </ul>
                     </p>
                 </div>
                 <div className="basis-3/4 mx-2 text-wrap">
                     <ul>
-                        <li>Languages: Python, Java, C, C++, HTML/CSS, JavaScript, RISC-V</li>
-                        <li>Libraries/Frameworks: Pandas, NumPy, Seaborn, NetworkX, matplotlib, React, Vite, TailwindCSS, Next.js</li>
-                        <li>Tools: Logisim, LTSpice, Figma</li>
+                        <li>Languages: Python, Java, C, C++, OCaml, HTML/CSS, JavaScript, RISC-V/x86</li>
+                        <li>Libraries/Frameworks: Pandas, NumPy, Seaborn, NetworkX, matplotlib, React, Vite, TailwindCSS, Next.js, QT</li>
+                        <li>Tools: Logisim, LTSpice, Figma, Git, Cadence, VS Code/Visual Studio, Eclipse, IntelliJ</li>
                         <li>Other: Microsoft Suite, Adobe Creative Cloud</li>
                         
                     </ul>
