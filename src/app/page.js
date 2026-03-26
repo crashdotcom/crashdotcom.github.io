@@ -15,7 +15,7 @@ export default function Home() {
               <h1 className={silkscreen.className}>hello world</h1>
             </div>
             
-              <div className="text-lg"><p className={jetbrains.className}>. <br></br>└── home/<br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/cs">about_me</a><br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/cs">cs</a><br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/art">art</a><br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/writing">writing</a><br></br>&emsp;&emsp;&emsp; └── <a href="mailto:k.yoo [at] berkeley.edu">contact</a></p></div>
+              <div className="text-lg"><p className={jetbrains.className}>. <br></br>└── home/<br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/about">about_me</a><br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/cs">cs</a><br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/art">art</a><br></br>&emsp;&emsp;&emsp; ├── <a href="https://crashdotcom.github.io/writing">writing</a><br></br>&emsp;&emsp;&emsp; └── <a href="mailto:k.yoo [at] berkeley.edu">contact</a></p></div>
 
         </div>
         <div id='stars'></div>
