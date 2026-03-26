@@ -22,6 +22,7 @@ export function Header({page}){
         <div className="dropdown">
         <button className="dropbtn">{page}</button>
         <div class="dropdown-content">
+            <a href="https://crashdotcom.github.io/">./home</a>
             <a href="https://crashdotcom.github.io/about">./home/about</a>
             <a href="https://crashdotcom.github.io/cs">./home/cs</a>
             <a href="https://crashdotcom.github.io/art">./home/art</a>
