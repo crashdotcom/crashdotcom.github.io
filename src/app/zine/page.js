@@ -11,7 +11,6 @@ export default function Home() {
           <h1 className={silkscreen.className}>DIY or die</h1>
 
         <div className="place-self-center max-w-3/5 text-base"> 
-        {/* grid grid-cols-2 max-w-3/5 place-self-center */}
           <div className="p-4">
           <p className={jetbrains.className}>
             A zine about DIY movements, from abortion clinics to community during the AIDS pandemic and HRT, and how they influence the legal sphere. Download and print at your leisure. <a className="underline"href="https://www.ashleytopacio.com/how-to-fold-a-zine" target="_blank">Zine folding guide.</a>

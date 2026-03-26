@@ -1,9 +1,7 @@
 import { JetBrains_Mono, Silkscreen, Pixelify_Sans } from "next/font/google";
-//import {JetBrains_Mono, Bytesized} from "next/font/google";
 import "./globals.css";
 import {NavBar} from "./components";
 
-//className={`${jetBrains.className} ${silkscreen.className} antialiased`}
 export const silkscreen = Silkscreen({
     subsets:["latin"],
     weight:'400',
