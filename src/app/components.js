@@ -16,6 +16,23 @@ export function Button({text, link}){
  )   
 }
 
+export function Header({page}){
+    return(
+        <div className={jetbrains.className}>
+        <div className="dropdown">
+        <button className="dropbtn">{page}</button>
+        <div class="dropdown-content">
+            <a href="https://crashdotcom.github.io/about">./home/about</a>
+            <a href="https://crashdotcom.github.io/cs">./home/cs</a>
+            <a href="https://crashdotcom.github.io/art">./home/art</a>
+            <a href="https://crashdotcom.github.io/writing">./home/writing</a>
+            <a href="mailto:k.yoo [at] berkeley.edu">./home/contact</a>
+        </div>
+        </div>
+        </div>
+    )
+}
+
 export function NavBar(){
     return(
         <div className="sticky top-0 flex place-content-center z-50 backdrop-blur-sm">
@@ -41,25 +58,5 @@ export function NavBar(){
             </Link>
         
         </div>
-    )
-}
-
-export function Wind({xIn,yIn,widthIn,heightIn}){
-    let dragging = false;
-    let x = xIn;
-    let y = yIn;
-    let w = widthIn;
-    let h = heightIn;
-    addEventListener("dragstart",(event)=>{
-        
-    });
-
-    return (
-        <div>
-
-
-        </div>
-
-
     )
 }

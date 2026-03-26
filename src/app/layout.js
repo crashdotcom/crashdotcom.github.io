@@ -3,17 +3,6 @@ import { JetBrains_Mono, Silkscreen, Pixelify_Sans } from "next/font/google";
 import "./globals.css";
 import {NavBar} from "./components";
 
-// const geistSans = JetBrains_Mono({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
-
-
 //className={`${jetBrains.className} ${silkscreen.className} antialiased`}
 export const silkscreen = Silkscreen({
     subsets:["latin"],
@@ -41,10 +30,11 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
-      <NavBar></NavBar>
       <body >
         {children}
       </body>
+      
     </html>
+    
   );
 }

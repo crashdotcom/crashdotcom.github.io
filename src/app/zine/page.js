@@ -1,8 +1,6 @@
 import Image from "next/image";
 import {silkscreen, jetbrains} from "../layout";
 import Button from "../components";
-import img from "../../../public/asgh.png"
-
 
 export default function Home() {
   return (
